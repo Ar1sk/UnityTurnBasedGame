@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf758e92c16240a39b0e98ce48e9389, type: 3}
+  m_Name: Steve
+  m_EditorClassIdentifier: 
+  name: Steve
+  description: Steve is a Hero
+  maxHP: 45
+  attack: 49
+  defense: 49
+  spAttack: 65
+  spDefense: 65
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: d9ec76d1bfde1479595ed3eaf9447b48, type: 2}
+    level: 1
